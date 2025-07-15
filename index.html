@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html-css-toboolist</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <header id="banner">
         <img src="img/Logo.png" alt="" id="logo">
@@ -14,10 +16,101 @@
         </div>
     </header>
 
-    <div id="background-container">
-        <div id="main-container">
-            Hello
+    <div id="main-content">
+        <div id="buttons">
+            <button id="add-task">
+                Add task
+            </button>
+            <button id="add-section">
+                Add section
+            </button>
+        </div>
+        <hr>
+
+        <div class="tasks">
+            <div class="task-section">
+                <img src="img/down-arrow.svg" alt="" class="arrow">
+                <span class="section-title">New Task</span>
+            </div>
+
+            <ul>
+                <li class="task">
+                    <img src="img/checkmark.svg" alt="" class="icon">
+                    <span class="taskname">Quarterly NewsLetter</span>
+                    <span class="label editorial">Editorial</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tasks">
+            <div class="task-section">
+                <img src="img/down-arrow.svg" alt="" class="arrow">
+                <span class="section-title">Today</span>
+            </div>
+
+            <ul>
+                <li class="task">
+                    <img src="img/checkmark.svg" alt="" class="icon">
+                    <span class="taskname">Recuiting blog post</span>
+                    <span class="label editorial">Editorial</span>
+                </li>
+
+                <li class="task">
+                    <img src="img/checkmark.svg" alt="" class="icon">
+                    <span class="taskname">Mobile App Launch</span>
+                    <span class="label q1">Q1 Goals</span>
+                </li>
+
+
+                <li class="task">
+                    <img src="img/cross.svg" alt="" class="icon">
+                    <span class="taskname">Interview John H.</span>
+                    <span class="label recruiting">Recruiting</span>
+                </li>
+
+
+                <li class="task">
+                    <img src="img/cross.svg" alt="" class="icon">
+                    <span class="taskname">Summit update to mobile storefronts</span>
+                    <span class="label mobile">Mobile</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tasks">
+            <div class="task-section">
+                <img src="img/down-arrow.svg" alt="" class="arrow">
+                <span class="section-title">Upcoming</span>
+            </div>
+
+            <ul>
+                <li class="task">
+                    <img src="img/cross.svg" alt="" class="icon">
+                    <span class="taskname">Schedule meeting with Alex</span>
+                </li>
+
+                <li class="task">
+                    <img src="img/checkmark.svg" alt="" class="icon">
+                    <span class="taskname">Homepage refresh</span>
+                    <span class="label website">Website</span>
+                </li>
+
+
+                <li class="task">
+                    <img src="img/checkmark.svg" alt="" class="icon">
+                    <span class="taskname">Onboard new Sales team members</span>
+                    <span class="label sales">Sales</span>
+                </li>
+
+
+                <li class="task">
+                    <img src="img/checkmark.svg" alt="" class="icon">
+                    <span class="taskname">Review editorial calendar</span>
+                    <span class="label editorial">Editorial</span>
+                </li>
+            </ul>
         </div>
     </div>
 </body>
+
 </html>

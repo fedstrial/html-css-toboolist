@@ -5,15 +5,19 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-html, body {
-    height: 100%;
+#banner {
+    background-color: white;
+}
+
+body { 
+    min-height: 100vh;
+    background-color: #f6f8fa;
 }
 
 #header-title {
     display: inline-block;
     vertical-align: middle;
 }
-
 
 /* Padding: top - right - bottom - left */
 #logo {
@@ -23,17 +27,117 @@ html, body {
     vertical-align: middle
 }
 
-
-#background-container {
-    background-color: #f6f8fa;
-    height: 100%;
-    padding-top: 4%;
+#main-content {
+    background-color: white ;
+    width: 60%;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: auto;
+
+    border-radius: 5px
 }
 
-#main-container {
-    background-color: white;
-    width: 60%;
-    margin-top: 4%;
-    margin: auto;
+/* Some of these are resets to the default css button styling which is odd */
+button {
+    font-size: medium;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+    padding: 1%;
+}
+
+#buttons {
+    padding-bottom: 1%;
+}
+
+#add-task {
+    border-color: #42adf4;
+    background-color: #42adf4;
+    color: white;
+    border: 1px solid #42adf4;
+}
+
+#add-section {
+    background-color: #fffefe;
+    color: #909394;
+    border: 1px solid #909394;
+}
+
+hr {
+    color: #fafdff;
+    background-color: #fafdff;
+    margin-bottom: 3%;
+}
+
+.tasks {
+    margin-bottom: 5%;
+}
+
+.task-section {
+    display: inline-block;
+    padding-bottom: 1%;
+}
+
+.arrow {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.task {
+    margin-top: 1%
+}
+.icon {
+    height: 32px;
+    width: 32px;
+    vertical-align: middle;
+    margin-right: 1%;
+}
+
+.label {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 1%;
+    border-radius: 30px;
+    color: white;
+}
+
+.editorial {
+    background-color: #42adf4;
+}
+
+.q1 {
+    background-color: #9a76de;
+}
+
+.recruiting {
+    background-color: #62c2a9;
+}
+
+.mobile {
+    background-color: #f29f36;
+}
+
+.website {
+    background-color: #d7659e;
+}
+
+.sales {
+    background-color: #adbe4f;
 }
