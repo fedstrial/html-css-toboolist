@@ -30,16 +30,19 @@ body {
 #main-content {
     background-color: white ;
     width: 60%;
-    padding-top: 2%;
-    padding-left: 4%;
-    padding-right: 4%;
     padding-bottom: 1%;
     margin-top: 4%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
-
+    
     border-radius: 5px
+}
+
+
+#tasklist {
+    padding-right: 4%;
+    padding-left: 4%;
 }
 
 /* Some of these are resets to the default css button styling which is odd */
@@ -52,7 +55,10 @@ button {
 }
 
 #buttons {
+    padding-right: 4%;
+    padding-left: 4%;
     padding-bottom: 1%;
+    padding-top: 2%;
 }
 
 #add-task {
